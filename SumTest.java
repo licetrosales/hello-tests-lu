@@ -36,7 +36,8 @@ class SumTest {
         int result = Sum.sum(zahl1, zahl2);
 
         // THEN = Das Erbegnis das wir erwarten
-        // Assertions = Sicherstellungen helfen uns Ergebnisse sicherzustellen (probar)
+        // Wir testen ob NICHT das falsche Ergebnis zurückgeliefert wird
+        // (Nur zur  Demo, kein sinnvoller Test!)
        assertNotEquals(expected, result);
     }
 

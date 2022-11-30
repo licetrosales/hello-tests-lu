@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3db80210-9563-41b0-954c-3ffaa7b8cb34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello-tests-lu.iml" afterDir="false" />
+    <list default="true" id="3db80210-9563-41b0-954c-3ffaa7b8cb34" name="Changes" comment="Change test function name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hello-tests-lu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello-tests-lu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hello-tests-lu/SumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hello-tests-lu/SumTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -57,7 +55,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SumTest">
+    <configuration name="SumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-tests-lu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-tests-lu" />
       <option name="PACKAGE_NAME" value="" />
@@ -68,8 +75,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumTest.sum_should_not_return_incorrect_result" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-tests-lu" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19.0.1/Contents/Home" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SumTest" />
+      <option name="METHOD_NAME" value="sum_should_not_return_incorrect_result" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTest.sum_should_return_sum_of_a_and_b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-tests-lu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SumTest" />
+      <option name="METHOD_NAME" value="sum_should_return_sum_of_a_and_b" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTest.um_should_return_sum_of_a_and_b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-tests-lu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SumTest" />
+      <option name="METHOD_NAME" value="um_should_return_sum_of_a_and_b" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SumTest" />
+        <item itemvalue="JUnit.SumTest.sum_should_not_return_incorrect_result" />
+        <item itemvalue="JUnit.SumTest.sum_should_return_sum_of_a_and_b" />
+        <item itemvalue="JUnit.SumTest.um_should_return_sum_of_a_and_b" />
         <item itemvalue="JUnit.SumTest.sum" />
       </list>
     </recent_temporary>
@@ -82,8 +125,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669839154789</updated>
-      <workItem from="1669839156432" duration="892000" />
+      <workItem from="1669839156432" duration="3429000" />
     </task>
+    <task id="LOCAL-00001" summary="Change test function name">
+      <created>1669840855132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669840855132</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change test function name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change test function name" />
   </component>
 </project>
